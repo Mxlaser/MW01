@@ -3,7 +3,19 @@ body{
   border-radius: 20px;
   margin: 20px;
 }
-h1, h2, h3{
+h1 {
   margin: 20px;
-  border: 10px solid #E0E0E0;
+  border: 5px solid #800000;
+  color:blue;
+  font-style: italic;
+}
+h3{
+  margin: 20px;
+  border: 5px solid #800000;
+  color: blue;
+}
+img{
+  float: right;
+  height: 75px;
+  width: 75px;
 }
