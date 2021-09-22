@@ -1,8 +1,9 @@
-body{
+body {
   border: 10px solid #E0E0E0;
   border-radius: 20px;
   margin: 20px;
 }
+
 h1 {
   margin: 20px;
   border: 5px solid #800000;
@@ -11,13 +12,86 @@ h1 {
   text-align: center;
   font-size: 300%
 }
-h2{
+
+h2 {
   margin: 20px;
+  padding: 5px;
   border: 5px solid #800000;
+  border-radius: 10px;
   color: blue;
+  width: 34%;
 }
-#maPhoto{
+
+div.presentation {
+  padding-bottom: 25px;
+}
+
+div.presentation h4 {
+  color: #336699;
+  margin-left: 20px;
+}
+
+#maPhoto {
   float: right;
   height: 75px;
   width: 75px;
+  margin-right: 20px;
 }
+
+div.icones img {
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+
+div.presentation p {
+  font-style: italic;
+  margin-left: 25px;
+}
+
+table, th, td {
+  margin-left: 20px;
+  border-collapse: collapse;
+}
+
+ th, td {
+   padding: 4px;
+   border-right: 1px solid black;
+   border-left: 1px solid black;
+ }
+
+.droite {
+  text-align: right;
+}
+
+ #html {
+   color: #0044cc;
+   text-align: center;
+ }
+
+ #css {
+   color: #29a329;
+   text-align: center;
+ }
+
+ #javaScript {
+   color: #cccc00;
+   text-align: center;
+ }
+
+ #php {
+   color: #cc2900;
+   text-align: center;
+ }
+
+ #baseDeDonnee {
+   text-align: center;
+ }
+
+ #lamp {
+   text-align: center;
+ }
+
+ div.centrerTableau td {
+   text-align: center;
+ }
