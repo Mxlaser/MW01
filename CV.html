@@ -3,32 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>Mon CV de geek</title>
+    <link rel="stylesheet" type="text/css" href="CV.css">
   </head>
-  <link rel="stylesheet" type="text/css" href="CV.css">
-  <style>
-  table, td {
-    border: 1px solid black;
-  }
-  th {
-    border: 1px solid black;
-    color:DodgerBlue;
-  }
-  ul {
-    font-style: italic;
-  }
-  </style>
   <body>
     <h1>Mon CV</h1>
     <br><br>
-    <img id="maPhoto" src="P:\MW01\silhouette.jpg" alt="Ma photo" style="width:100px">
-    <h4>Nom : ZIVKOVIC Nikola <br> Mail : nikola.zivkovic300@gmail.com <br> Numéro : 0698145313 <br>
-      Adresse : 51 Rue Francis de Préssensé Drancy 93700 <br> Permis de Conduire : Oui</h4>
-
-    <p>Je suis actuellement à la recherche d'un stage de 6 semaines du 23 mai 2022 au 06 juillet 2022
-      dans le développement informatique, aussi bien le développement web que le développement d'applications</p>
-    <br><br>
-    <h2>Mes Compétences</h2>
-    <table style="width:100%">
+    <div class="presentation">
+      <img id="maPhoto" src="silhouette.jpg" alt="Ma photo">
+      <div class="icones">
+        <h4><img  src="silhouette.jpg" alt="Ma photo">Nom : ZIVKOVIC Nikola<br>
+          <img  src="silhouette.jpg" alt="Ma photo">Mail : nikola.zivkovic300@gmail.com<br>
+          <img  src="silhouette.jpg" alt="Ma photo">Numéro : 0698145313<br>
+          <img  src="silhouette.jpg" alt="Ma photo">Adresse : 51 Rue Francis de Préssensé Drancy 93700<br>
+          <img  src="silhouette.jpg" alt="Ma photo">Permis de Conduire : Oui
+        </h4>
+      </div>
+      <p>Je suis actuellement à la recherche d'un stage de 6 semaines du 23 mai 2022 au 06 juillet 2022
+        dans le développement informatique, aussi bien le développement web que le développement d'applications
+      </p>
+    </div>
+    <br>
+    <h2 style="width:97%">Mes Compétences</h2>
+    <table style="width:98%">
       <tr>
         <th>Développement d'application bureau et embarquée en C/C++</th>
         <th>Développement Web</th>
@@ -36,83 +32,87 @@
       </tr>
       <tr>
         <td>Les types des données, les fonctions, mes classes, objets et méthodes</td>
-        <td>HTML 5</td>
-        <td>Déploiement de LAN et VLAN en IPv4</td>
+        <td id="html">HTML 5</td>
+        <td class="droite">Déploiement de LAN et VLAN en IPv4</td>
       </tr>
       <tr>
         <td>Développement sur PC Windows et Raspberry sous Linux</td>
-        <td>CSS 3</td>
-        <td>Paramétrage de switch et routeur CISCO</td>
+        <td id="css">CSS 3</td>
+        <td class="droite">Paramétrage de switch et routeur CISCO</td>
       </tr>
       <tr>
         <td>Développement d'application client/serveur</td>
-        <td>JavaScript</td>
-        <td>Installation d'un système de téléphonie IP</td>
+        <td id="javaScript">JavaScript</td>
+        <td class="droite">Installation d'un système de téléphonie IP</td>
       </tr>
       <tr>
         <td>Développement console sur une Raspberry d'OS Linux</td>
-        <td>PHP</td>
-        <td>Installation et paramétrage d'un NAS Synology</td>
+        <td id="php">PHP</td>
+        <td class="droite">Installation et paramétrage d'un NAS Synology</td>
       </tr>
       <tr>
         <td>Versionning avec Git et Github</td>
-        <td>Bas de Données</td>
-        <td>Installation et paramétrage d'un système de surveillance de locaux</td>
+        <td id="baseDeDonnee">Base de Données</td>
+        <td class="droite">Installation et paramétrage d'un système de surveillance de locaux</td>
       </tr>
       <tr>
         <td></td>
-        <td>Installation d'un serveur LAMP</td>
+        <td id="lamp">Installation d'un serveur LAMP</td>
         <td></td>
       </tr>
     </table>
     <br><br>
     <h2>Mes Formations</h2>
-    <table style="width:50%">
-      <tr>
-        <th>Année</th>
-        <th>Diplôme</th>
-        <th>Etablissement</th>
-      </tr>
-      <tr>
-        <td>2021-2023</td>
-        <td>Préparation d'un BTS SNIR</td>
-        <td>Lycée Louis Armand - Nogent-sur-Marne</td>
-      </tr>
-      <tr>
-        <td>2017-2018</td>
-        <td>BAC S</td>
-        <td>Lycée Blaise Cendrars - Sevran</td>
-      </tr>
-      <tr>
-        <td>2013-2014</td>
-        <td>Brevet des collèges</td>
-        <td>Collège Paul Bert - Drancy</td>
-      </tr>
-    </table>
+    <div class="centrerTableau">
+      <table style="width:35%">
+        <tr>
+          <th>Année</th>
+          <th>Diplôme</th>
+          <th>Etablissement</th>
+        </tr>
+        <tr>
+          <td class="date">2021-2023</td>
+          <td>Préparation d'un BTS SNIR</td>
+          <td>Lycée Louis Armand - Nogent-sur-Marne</td>
+        </tr>
+        <tr>
+          <td class="date">2017-2018</td>
+          <td>BAC S</td>
+          <td>Lycée Blaise Cendrars - Sevran</td>
+        </tr>
+        <tr>
+          <td class="date">2013-2014</td>
+          <td>Brevet des collèges</td>
+          <td>Collège Paul Bert - Drancy</td>
+        </tr>
+      </table>
+    </div>
     <br><br>
     <h2>Mes experiences professionnelles</h2>
-    <table style="width:50%">
-      <tr>
-        <th>Durée</th>
-        <th>Mission</th>
-        <th>Entreprise</th>
-      </tr>
-      <tr>
-        <td>Eté 2019</td>
-        <td>Gestion des stocks VF</td>
-        <td>Servair 1</td>
-      </tr>
-      <tr>
-        <td>Eté 2018</td>
-        <td>Gestion des stocks Magasin Général</td>
-        <td>Servair 1</td>
-      </tr>
-      <tr>
-        <td>Collège</td>
-        <td>Stage découverte</td>
-        <td>Servair 1</td>
-      </tr>
-    </table>
+    <div class="centrerTableau">
+      <table style="width:35%">
+        <tr>
+          <th>Durée</th>
+          <th>Mission</th>
+          <th>Entreprise</th>
+        </tr>
+        <tr>
+          <td class="date">Eté 2019</td>
+          <td>Gestion des stocks VF</td>
+          <td>Servair 1</td>
+        </tr>
+        <tr>
+          <td class="date">Eté 2018</td>
+          <td>Gestion des stocks Magasin Général</td>
+          <td>Servair 1</td>
+        </tr>
+        <tr>
+          <td class="date">2014</td>
+          <td>Stage de découverte</td>
+          <td>Servair 1</td>
+        </tr>
+      </table>
+    </div>
     <br><br>
     <h2>Langues parlées</h2>
     <ol>
@@ -120,8 +120,8 @@
       <li>Anglais</li>
       <li>Serbe</li>
     </ol>
-    <h3>Mes Loisirs</h3>
-    <ul>
+    <h2>Mes Loisirs</h2>
+    <ul id="loisirs">
       <li>La Programmation</li>
       <li>Le Foot US</li>
     </ul>
