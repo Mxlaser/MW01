@@ -1,0 +1,32 @@
+body {
+  border: 10px solid #E0E0E0;
+  border-radius: 20px;
+  margin: 20px;
+  display: grid;
+  grid-template-areas : "head head"
+  						          "nav nav"
+                        "section aside"
+                        "foot foot";
+  grid-template-rows: 80px 80px 400px 1fr;
+  grid-template-columns: auto 25%;
+}
+
+header {
+	grid-area: head;
+}
+
+nav {
+	grid-area: nav;
+}
+
+section {
+  grid-area: section;
+}
+
+aside {
+	grid-area: aside;
+}
+
+footer {
+	grid-area: foot;
+}
