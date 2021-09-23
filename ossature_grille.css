@@ -1,4 +1,6 @@
 body {
+  width: auto;
+  height: auto;
   border: 10px solid #E0E0E0;
   border-radius: 20px;
   margin: 20px;
@@ -7,7 +9,7 @@ body {
   						          "nav nav"
                         "section aside"
                         "foot foot";
-  grid-template-rows: 80px 80px 400px 1fr;
+  grid-template-rows: 80px 80px 400px auto;
   grid-template-columns: auto 25%;
 }
 
@@ -29,4 +31,16 @@ aside {
 
 footer {
 	grid-area: foot;
+}
+
+@media (max-width: 800px) {   /*Zone réservée pour les écrans inférieurs à 800px de large*/
+  body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 1fr 400px 1fr;
+    grid-template-areas: "head"
+                         "nav"
+                         "section"
+                         "foot";
+  }
 }

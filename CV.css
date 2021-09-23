@@ -10,7 +10,7 @@ h1 {
   color:blue;
   font-style: italic;
   text-align: center;
-  font-size: 300%
+  font-size: 3em
 }
 
 h2 {
@@ -72,7 +72,7 @@ table, th, td {
 }
 
 #table2 {
-  width:35%;
+  width: 35%;
 }
 
  #html {
