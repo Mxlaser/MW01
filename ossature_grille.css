@@ -43,4 +43,7 @@ footer {
                          "section"
                          "foot";
   }
+  body aside {
+    display: none;
+  }
 }
