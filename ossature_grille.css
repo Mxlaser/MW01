@@ -1,16 +1,15 @@
 body {
-  width: auto;
-  height: auto;
   border: 10px solid #E0E0E0;
   border-radius: 20px;
   margin: 20px;
+  height: auto;
   display: grid;
   grid-template-areas : "head head"
   						          "nav nav"
                         "section aside"
                         "foot foot";
-  grid-template-rows: 80px 80px 400px auto;
-  grid-template-columns: auto 25%;
+  grid-template-rows: 80px 40px minmax(400px, auto) auto;
+  grid-template-columns: 1fr 25%;
 }
 
 header {
@@ -37,7 +36,7 @@ footer {
   body {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 80px 1fr 400px 1fr;
+    grid-template-rows: 80px auto minmax(400px auto) auto;
     grid-template-areas: "head"
                          "nav"
                          "section"
