@@ -36,6 +36,14 @@ nav a:hover {
   transition-delay: 0.2s;
 }
 
+/*section div {
+  display: grid;
+  grid-template-areas: "th th th th";
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 10px;
+  grid-area: table;
+}*/
+
 section h1 {
   text-align: center;
   padding: 10px 0 0 0;
@@ -53,7 +61,7 @@ section th {
 section img {
   float: left;
   padding: 0 10px 0 10px;
-  width: 175px;
+  width: 350px;
 }
 
 aside {
