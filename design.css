@@ -1,8 +1,10 @@
+/* Modification du body */
 body {
   font-family: 'Quicksand', sans-serif;
   height: auto;
 }
 
+/* Modification du header */
 header, nav, footer {
   background-color: #2874a6;
   color: white;
@@ -17,6 +19,7 @@ header h1 {
   text-align: center;
 }
 
+/* Modification de la barre de nav */
 nav {
   padding: 0 20px 0 20px;
 }
@@ -24,7 +27,6 @@ nav {
 nav a {
   font-size: 1rem;
   color: white;
-  margin: 0px;
   padding: 0 20px 0 20px;
   text-align: center;
   text-transform: capitalize;
@@ -36,14 +38,12 @@ nav a:hover {
   transition-delay: 0.2s;
 }
 
-/*section div {
-  display: grid;
-  grid-template-areas: "th th th th";
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: 10px;
-  grid-area: table;
-}*/
+/* Liens Connexion et Inscription à droite de l'écran */
+#formulaires {
+  float: right;
+}
 
+/* Modification de la section */
 section h1 {
   text-align: center;
   padding: 10px 0 0 0;
@@ -64,6 +64,7 @@ section img {
   width: 350px;
 }
 
+/* Modification du aside */
 aside {
   margin: 10px 0 10px 10px;
   padding: 10px;
@@ -78,8 +79,11 @@ aside a {
   text-decoration: underline;
 }
 
+/* Modification du footer */
 footer {
-  padding: 0 20px 0 20px;
+  padding: 0 20px 20px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer a {
@@ -89,4 +93,9 @@ footer a {
   text-align: center;
   text-transform: capitalize;
   text-decoration: none;
+}
+
+footer a:hover {
+  border-bottom: 2px solid white;
+  transition-delay: 0.2s;
 }
