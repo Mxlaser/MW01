@@ -34,14 +34,12 @@ footer {
 footer a {
   font-size: 1rem;
   color: black;
-  padding: 0 20px 0 20px;
   text-align: center;
   text-transform: capitalize;
   text-decoration: none;
 }
 
 footer a:hover {
-  border-top: 2px solid black;
   border-bottom: 2px solid black;
   transition-delay: 0.2s;
 }

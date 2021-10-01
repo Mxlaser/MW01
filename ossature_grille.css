@@ -18,6 +18,10 @@ header {
 	grid-area: head;
 }
 
+header img {
+  display: none;
+}
+
 nav {
 	grid-area: nav;
 }
@@ -48,5 +52,13 @@ footer {
   /* Ne pas afficher aside et nav */
   body aside, nav {
     display: none;
+  }
+
+  header img {
+    display: inherit;
+  }
+
+  nav {
+    float: left;
   }
 }
